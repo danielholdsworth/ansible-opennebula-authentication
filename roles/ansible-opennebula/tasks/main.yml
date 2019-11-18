@@ -1,0 +1,8 @@
+#using the simple one_vm module which will just spin up a VM using template id 7
+
+- one_vm:
+    api_password: #PASSWORD can be found at '/var/lib/one/.one/one_auth' of your opennebula host
+    api_url: http://<opennebulahost>:2633/RPC2
+    api_username: #USERNAME
+    template_id: 7
+  register: result
