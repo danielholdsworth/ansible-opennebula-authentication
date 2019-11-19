@@ -1,4 +1,4 @@
-# opennebula-ansible
+# Ansible OpenNebula Authentication
 
 A very small repo just outlining how to use the 'api_*' paremeters of the ansible opennebula modules.
 
